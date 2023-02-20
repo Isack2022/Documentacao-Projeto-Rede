@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 2-TI</title>
+    <link rel="shortcut icon" href="../../image/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    		<div id="container">
+          <a>
+            <img class="logo" src="../../image/logo/Logotipo_Tecnologia.png" alt="logo" />
+          </a>
+          <nav class="nave">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+    
+                <li><a href="#">Cisco</a>
+                    <!--Cisco conteudo-->    
+                        <ul> 
+                            <li><a href="../cisco/ospf.html">Protocolo Ospf</a></li>
+                            <li><a href="../cisco/conf_cisco.html">configurações</a></li>
+                        </ul>
+                <li><a href="#">Linux</a>
+    
+                <!-- Linux conteudo -->
+                <ul>
+                    <li><a href="samba.html">Samba</a></li>  
+                    <li><a href="ssh.html">SSH</a></li>
+                    <li><a href="proxy.html">Proxy</a></li>
+                    <li><a href="apache.html">Apache</a></li>
+                </ul>        
+                </li>
+    
+                <li><a href="#">Pfsense</a>
+                    <!--Pfsense conteudo-->    
+                    <ul>
+                        <li><a href="../pfsense/firewall.html">Firewall</a></li>
+                        <li><a href="../pfsense/rede_lan.html">Rede Lan</a></li>
+                    </ul>
+    
+                <li><a href="#">Windows Server</a>
+                <!-- Windows Server conteudo-->
+                <ul>
+                    <li><a href="../win_server/gpo.html">GPO</a></li>
+                    <li><a href="../win_server/pasta.html">Pasta compartilhada </a></li>
+                    <li><a href="../win_server/grupo.html">Grupos e usuários</a></li>
+                </ul>
+    
+            
+            </ul>
+        </nav>
+    <section>
+        <div class="exp">
+            <h3 class="sot">O que é Proxy?</h3>
+            <p>Um servidor proxy fica à frente do cliente ou de uma rede de clientes e faz a intermediação do tráfego. Esse servidor proxy é outro computador conectado à internet, como seu computador, e ele tem seu próprio endereço IP. Seu computador se comunica apenas com o proxy e o proxy encaminha toda comunicação à internet.</p>
+
+            <img class="img4" src="../../image/proxy/proxy_logo.jpg" alt="Logo proxy">
+        </div>
+
+        <hr class="t">
+        <div class="exp">
+        <h3 class="sot">Como instalar e utiliza o proxy:</h3>
+            <p> 1º Instale o Squid: "sudo apt-get install squid"</p>
+            <img class="img5" src="../../image/proxy/proxy1.png" alt="">
+            <p> 2º Configure o proxy: depois de instalar o pacote do proxy, você precisará configurá-lo com as informações do seu servidor proxy, incluindo o endereço do host e a porta. </p>
+            <img class="img5" src="../../image/proxy/proxy2.png" alt="">
+            <p> 3º Adicione as seguintes linhas no arquivo de configuração:</p>
+            <img class="img5" src="../../image/proxy/proxy3.png" alt="">
+            <p> 4º Reinicie o proxy: depois de configurar o proxy, você precisará reiniciá-lo para que as alterações entrem em vigor.</p>
+            <img class="img5" src="../../image/proxy/proxy4.png" alt="">
+            <p> 5º Verifique se o Squid está funcionando corretamente: "sudo service squid status"</p>
+            <p>Exemplo:</p>
+            <img class="img5" src="../../image/proxy/proxy5.png" alt="">
+        </div>
+    </section>
+</body>
+</html>

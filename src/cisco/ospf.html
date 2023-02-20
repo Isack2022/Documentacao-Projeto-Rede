@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 2-TI</title>
+    <link rel="shortcut icon" href="../../image/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    		<div id="container">
+          <a>
+            <img class="logo" src="../../image/logo/Logotipo_Tecnologia.png" alt="logo" />
+          </a>
+          <nav class="nave">
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+    
+                <li><a href="#">Cisco</a>
+                    <!--Cisco conteudo-->    
+                        <ul> 
+                            <li><a href="ospf.html">Protocolo Ospf</a></li>
+                            <li><a href="conf_cisco.html">configurações</a></li>
+                        </ul>
+                <li><a href="#">Linux</a>
+    
+                <!-- Linux conteudo -->
+                <ul>
+                    <li><a href="../linux/samba.html">Samba</a></li> 
+                    <li><a href="../linux/ssh.html">SSH</a></li>
+                    <li><a href="../linux/proxy.html">Proxy</a></li>
+                    <li><a href="../linux/apache.html">Apache</a></li>
+                </ul>        
+                </li>
+    
+                <li><a href="#">Pfsense</a>
+                    <!--Pfsense conteudo-->    
+                    <ul>
+                        <li><a href="../pfsense/firewall.html">Firewall</a></li>
+                        <li><a href="../pfsense/rede_lan.html">Rede Lan</a></li>
+                    </ul>
+    
+                <li><a href="#">Windows Server</a>
+                <!-- Windows Server conteudo-->
+                <ul>
+                    <li><a href="../win_server/gpo.html">GPO</a></li>
+                    <li><a href="../win_server/pasta.html">Pasta compartilhada </a></li>
+                    <li><a href="../win_server/grupo.html">Grupos e usuários</a></li>
+                </ul>
+    
+            
+            </ul>
+        </nav>
+    <section>
+        <div class="exp">
+            <h3 class="sot">O que é um Protocolo OSPF?</h3>
+            <p>Como dissemos anteriormente, o protocolo OSPF é um protocolo de roteamento no modelo dinâmico. De forma geral, podemos compará-lo com um GPS que observa as rotas para se chegar a um determinado destino e opta por aquela que será concluída em menor tempo ou sem trânsito. Assim, o protocolo OSPF consegue analisar, interpretar e registrar dados dos roteadores conectados a um servidor, para, posteriormente, escolher um melhor caminho para entregar os pacotes da rede. É considerado pertencente à classe dos protocolos de roteamento dinâmico. Todos os protocolos que priorizam a observação da quantidade de roteadores até chegada do destino são conhecidos como de vetor distância, como RIP, RIPv2 e EIGRP, enquanto os que priorizam chegar mais rápido de acordo com a banda são chamados de protocolos link state (estado de link), como o OSPF e IS-IS. Dessa forma, o Protocolo OSPF é aquele do tipo link state que, antes de tomar qualquer decisão, irá avaliar a topologia de todos os roteadores integrados aos seus processos, optando pela jornada mais curta para encaminhamento dos pacotes.</p>  
+            <h3>Como configurar ?</h3>
+            <p>Para configurar o ospf é preciso que configure o endereço IP em R1 e R2, crie uma interface de loopback em ambos os roteadores e configure o endereço IP, habilite o OSPF e anuncie redes verifique a tabela de roteamento, o status de adjacência e o LSDB.
+            </p>
+            <p>Exemplo:</p>
+            <img class="img5" src="../../image/configuracao_cisco/ospf.png" alt="Configuração do protocolo ospf">
+        </div>
+    </section>
+</body>
+</html>

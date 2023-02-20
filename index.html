@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 2-TI</title>
+    <link rel="shortcut icon" href="image/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+       <a>
+          <img class="logo" src="image/logo/Logotipo_Tecnologia.png" alt="logo" />
+        </a>
+    <nav class="nave">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="#">Cisco</a>
+                <!--Cisco conteudo-->    
+                    <ul> 
+                        <li><a href="src/cisco/ospf.html">Protocolo Ospf</a></li>
+                        <li><a href="src/cisco/conf_cisco.html">configurações</a></li>
+                    </ul>
+            <li><a href="#">Linux</a>
+
+            <!-- Linux conteudo -->
+            <ul>
+                <li><a href="src/linux/samba.html">Samba</a></li> 
+                <li><a href="src/linux/ssh.html">SSH</a></li>
+                <li><a href="src/linux/proxy.html">Proxy</a></li>
+                <li><a href="src/linux/apache.html">Apache</a></li>
+            </ul>        
+            </li>
+
+            <li><a href="#">Pfsense</a>
+                <!--Pfsense conteudo-->    
+                <ul>
+                    <li><a href="src/pfsense/firewall.html">Firewall</a></li>
+                    <li><a href="src/pfsense/rede_lan.html">Rede Lan</a></li>
+                </ul>
+
+            <li><a href="#">Windows Server</a>
+            <!-- Windows Server conteudo-->
+            <ul>
+                <li><a href="src/win_server/gpo.html">GPO</a></li>
+                <li><a href="src/win_server/pasta.html">Pasta compartilhada </a></li>
+                <li><a href="src/win_server/grupo.html">Grupos e usuários</a></li>
+            </ul>
+
+        
+        </ul>
+    </nav>
+    <section>
+        <div class="exp">
+            <h3 class="sot">Integrantes do Grupo:</h3>
+            <p id="nome">Isack - João Victor - Juliano - Nicolas - Lucas</p>
+          </div>
+        <hr class="t">
+        <h3 class="sot">Projeto:</h3>
+        <div class="exp">
+            <p>Nós decidimos criar um projeto utilizando 2 roteadores Cisco 2911, 2 switches Cisco 2950T e 8 máquinas. As máquinas foram divididas em cada switch, com o primeiro switch conectado ao roteador "Roteador 3" através da porta Gigabit 0/1 e o segundo switch conectado ao roteador "Roteador 4". No primeiro switch, colocamos cerca de 5 máquinas, incluindo um Windows Server 2016 como servidor de domínio, um Ubuntu 18.04 como servidor web, uma ferramenta de compartilhamento de pasta (Samba), acesso remoto (SSH) e proxy (Squid). Além disso, adicionamos a ferramenta PfSense como firewall e gerenciador de rede para garantir segurança. No segundo switch, usamos o mesmo número de usuários e incluímos 2 máquinas com Windows 10, além de outra com Windows Server 2016 para administração. Esse Windows Server está vinculado ao servidor "Pai" do primeiro switch. Usamos o Windows Server como administrador das máquinas usuárias, aplicando configurações de segurança através da ferramenta GPO, como a proibição de acesso ao painel de controle. Além disso, usamos o perfil móvel para compartilhar arquivos entre as máquinas e o compartilhamento de pasta para armazenamento adicional.</p>
+        </div>
+        <hr class="t">
+        <h3 class="sot">Software utilizados no projeto:</h3>
+        <!--Ubuntu-->
+        <h4 class="sof">Ubuntu:</h4>
+        <div>
+            <a>
+                <img class="img2" src="image/ubuntu/ubuntu.png" alt="Ubuntu-logo" />
+             </a>
+            <a>
+                <img class="img3" src="image/ubuntu/ubuntu2.png" alt="Terminal do linux" />
+             </a> 
+        </div>
+        
+        <div class="text">
+            <p>Ubuntu é um sistema operacional ou sistema operativo de código aberto, construído a partir do núcleo Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo. O software é uma distribuição Linux produzida pela empresa africana Canonical. Ele é um sistema operacional completo que pode ser instalado em computadores PC e Mac. O sistema é um dos Linux mais populares da atualidade.<p>
+        </div>
+        
+        <hr class="t">
+        <!-- Server-->
+        <h4 class="sof">Windows Server 2016:</h4>
+
+        <div>
+            <a>
+                <img class="img2"src="image/win_server2016/server2016_logo.png" />
+            </a>
+            <a>
+                <img class="img3" src="image/win_server2016/server2.png" alt="Local-server" />
+            </a> 
+        </div>
+
+        <div class="text">
+            <p>O Windows Server é uma plataforma para compilar uma infraestrutura de aplicativos, redes e serviços Web conectados, do grupo de trabalho ao data center. Ele faz a ponte entre os ambientes locais e o Azure, adicionando mais camadas de segurança enquanto ajuda você a modernizar seus aplicativos e sua infraestrutura.<p>
+        </div>
+
+        <hr class="t">
+        <h4 class="sof">Active Directory:</h4>
+        <div>
+            <a>
+                <img class="img2" src="image/active_directory/active_directory1.png" />
+             </a>
+            <a>
+                <img class="img3" src="image/active_directory/active_directory2.png" />
+             </a> 
+        </div>
+         <div class="text">
+            <p>O Active Directory (AD) é uma ferramenta da Microsoft utilizada para o gerenciamento de usuários de rede, denominada serviço de diretório. Um diretório nada mais é do que um banco de dados contendo informações dos usuários de uma organização, tais como nome, login, senha, cargo, perfil e etc.</p>
+         </div>
+        
+        <hr class="t">    
+        <!-- Hyper terminal -->
+        <h4 class="sof">Hyper Terminal:</h4>
+        <div>
+            <a>
+                <img class="img2" src="image/hyper_terminal/hyper_terminal_logo.png" alt="Hyper Terminal-logo" />
+             </a>
+            <a>
+                <img class="img3" src="image/hyper_terminal/interface_hyper_terminal.gif" alt="Hyper Terminal" />
+             </a> 
+        </div>
+         <div class="text">
+            <p>HyperTerminal é um programa usado como emulador de terminal para Windows 7 e outras versões do sistema operacional. É uma aplicação de comunicação que permite aos usuários acessar dispositivos remotamente por um barramento serial RS232, Telnet ou uma conexão discada. O software é muito eficaz para controlar dispositivos externos conectados a um computador através de suas portas COM. Ele pode ser usado para se comunicar com instrumentos científicos, dispositivos robóticos e outros computadores. Com este utilitário terminal, é possível trocar dados facilmente com equipamentos de rede, dispositivos de telecomunicação e sistemas de monitoramento industrial.</p>
+         </div>
+         <hr class="t">
+         <h4 class="sof">Pfsense:</h4>
+         <div>
+             <a>
+                 <img class="img2" src="image/pfsense/pfSense-Logo.jpg" alt="pfsense-logo" />
+              </a>
+             <a>
+                 <img id="img21" src="image/pfsense/pfsense_terminal.png" alt="pfsense" />
+              </a> 
+         </div>
+          <div class="text">
+             <p>O pfSense é vários pacotes de software livre de terceiros para estender suas funcionalidades, tais como Snort e Suricata para detecção e prevenção de intrusão, OpenBGPD, Squid com cache e proxy reverso com SquidGuard, antivírus com ClamWin, além de vários outros pacotes de monitoramento e estatísticas. Ele é um software com a licença BSD, ou seja você não precisa pagar licenças de uso. Além de ser um software gratuito, seus pacotes adicionais permite que ele seja considerado um UTM (Unified Threat Management, “Central Unificada de Gerenciamento de Ameaças”), já que pode-se realizar com o pfSense muitas das atividades que esperamos de sistemas com esta funcionalidade. Ele também possui relatórios em Gráficos RRD, Modelagem de tráfego e filtragem e usa informações em tempo real. Todos os recursos disponíveis são gerenciados exclusivamente por uma interface Web de fácil interpretação. </p>
+          </div>
+          <hr class="t">
+          <div class="exp">
+            <p id="p0">Site feito pelo Isack Cardoso dos Santos</p>
+    </section>
+</body>
+</html>
